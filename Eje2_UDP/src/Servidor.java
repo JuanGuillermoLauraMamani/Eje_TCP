@@ -6,10 +6,9 @@ import java.util.Date;
 import java.util.Scanner;
 import java.util.StringTokenizer;
 
-
-// NOMBRE: JUAN GUILLERMO LAURA MAMANI
-// CI: 8301405
-// PARALELO A - GALLARDO - JUEVES (16-18)hrs
+//NOMBRE: JUAN GUILLERMO LAURA MAMANI
+//CI: 8301405
+//PARALELO A - GALLARDO - JUEVES (16-18)hrs 
 
 public class Servidor {
 
@@ -28,11 +27,13 @@ public class Servidor {
 			byte[] buffer=new byte[1024];
 
 			while(true){
-
+				
 
 				DatagramPacket paqueteRecep = new DatagramPacket(buffer,buffer.length);
 				socket.receive(paqueteRecep);
 
+				System.out.println("CLIENTE CONECTADO: "+"["+paqueteRecep.getPort()+" "+paqueteRecep.getAddress()+"]");
+				
 				
 				
 				String frase =new String(paqueteRecep.getData());
@@ -42,10 +43,7 @@ public class Servidor {
 				
 				DatagramPacket paqueteAEnviar = new DatagramPacket(buffer,buffer.length,paqueteRecep.getAddress(),paqueteRecep.getPort());
 				socket.send(paqueteAEnviar);
-				
-				
-				
-				System.out.println("CLIENTE CONECTADO: "+"["+paqueteRecep.getPort()+" "+paqueteRecep.getAddress()+"]");
+						
 
 			}
 

@@ -6,10 +6,9 @@ import java.net.DatagramSocket;
 import java.net.InetAddress;
 import java.util.Scanner;
 
-
-// NOMBRE: JUAN GUILLERMO LAURA MAMANI
-// CI: 8301405
-// PARALELO A - GALLARDO - JUEVES (16-18)hrs
+//NOMBRE: JUAN GUILLERMO LAURA MAMANI
+//CI: 8301405
+//PARALELO A - GALLARDO - JUEVES (16-18)hrs
 
 public class Cliente {
 	public static void main(String[] args) throws IOException {
@@ -26,7 +25,7 @@ public class Cliente {
 				
 				System.out.println("*********CONEXION INICIADA************");
 				
-				
+				System.out.println("Ingrese la cadena: ");
 				String frase=in.nextLine();
 				byte buffer[] = new byte[1024];
 				buffer = frase.getBytes();
