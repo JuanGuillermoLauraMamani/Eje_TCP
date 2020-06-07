@@ -6,6 +6,11 @@ import java.util.Date;
 import java.util.Scanner;
 import java.util.StringTokenizer;
 
+
+// NOMBRE: JUAN GUILLERMO LAURA MAMANI
+// CI: 8301405
+// PARALELO A - GALLARDO - JUEVES (16-18)hrs
+
 public class Servidor {
 
 	public static void main(String[] args) {

@@ -7,6 +7,10 @@ import java.net.InetAddress;
 import java.util.Scanner;
 
 
+// NOMBRE: JUAN GUILLERMO LAURA MAMANI
+// CI: 8301405
+// PARALELO A - GALLARDO - JUEVES (16-18)hrs
+
 public class Cliente {
 	public static void main(String[] args) throws IOException {
 		int puerto=8888;

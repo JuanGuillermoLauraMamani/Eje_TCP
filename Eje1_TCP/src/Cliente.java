@@ -2,6 +2,14 @@ import java.net.*;
 import java.util.Scanner;
 import java.io.*;
 
+
+// NOMBRE: JUAN GUILLERMO LAURA MAMANI
+// CI: 8301405
+// PARALELO A - GALLARDO - JUEVES (16-18)hrs
+ 
+
+
+
 public class Cliente {
 	static Socket socketCliente = null;
 	static BufferedReader entrada = null;

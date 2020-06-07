@@ -2,6 +2,10 @@
 import java.io.*;
 import java.net.*;
 
+// NOMBRE: JUAN GUILLERMO LAURA MAMANI
+// CI: 8301405
+// PARALELO A - GALLARDO - JUEVES (16-18)hrs
+
 public class Servidor {  
 	public static final int PORT = 4444;
 	static Socket socketCliente = null;
